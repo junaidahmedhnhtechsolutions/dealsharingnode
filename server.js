@@ -26,10 +26,10 @@ app.post("/api/meta", async (req, res) => {
       image: $(`meta[property='og:image']`).attr("content"),
     };
 
-    res.json(metadata);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).json({ error: "Unable to fetch metadata" });
+    res.status.json(metadata);
+  } catch (errors) {
+    console.error(errors);
+    res.status(500).json({ message: errors.message, errors });
   }
 });
 

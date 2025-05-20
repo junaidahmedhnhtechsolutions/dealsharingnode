@@ -1,15 +1,23 @@
 {
-  "name": "server",
+  "name": "dealsharing-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "\"# dealsharingnode\"",
+  "homepage": "https://github.com/junaidahmedhnhtechsolutions/dealsharingnode#readme",
+  "bugs": {
+    "url": "https://github.com/junaidahmedhnhtechsolutions/dealsharingnode/issues"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junaidahmedhnhtechsolutions/dealsharingnode.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "axios": "^1.9.0",
     "body-parser": "^2.2.0",
